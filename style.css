@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(10, 16, 17);
+  }
+  h1 {
+    animation: color-change 5s infinite;
+  }
+  @keyframes color-change {
+    0% { color:rgb(3, 5, 119); }
+    25% { color: rgb(236, 188, 57); }
+    50% { color: rgb(211, 24, 236);}
+    75% { color: rgb(236, 57, 87); }
+    100% { color: rgb(3, 119, 3); }
+  }
+  p {
+    color: rgb(28, 0, 128);
+    text-shadow: 5px;
+    padding-left:20px;
+  }
+  label{
+      padding-left: 20px;
+  }
